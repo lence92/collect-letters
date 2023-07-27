@@ -1,14 +1,3 @@
-// Test Input
-// const map: string[][] = [
-//   [" ", "+", "-", "L", "-", "+", " ", " "],
-//   [" ", "|", " ", " ", "+", "A", "-", "+"],
-//   ["@", "B", "+", " ", "+", "+", " ", "H"],
-//   [" ", "+", "+", " ", " ", " ", " ", "x"],
-// ];
-// Expected result:
-// Letters BLAH
-// Path as characters @B+++B|+-L-+A+++A-+Hx
-
 enum TaskError {
   generic,
   invalidStartPath,
